@@ -1,0 +1,5 @@
+# state files for the update checkers
+*.state
+
+# config: mailto files
+mailto
