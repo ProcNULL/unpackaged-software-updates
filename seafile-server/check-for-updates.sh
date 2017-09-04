@@ -1,8 +1,10 @@
 #!/bin/sh
-# ===== Seafile Server =====
+# ===== Seafile Server : check-for-updates.sh =====
 SCRIPT_DIR="$(dirname "$(readlink -f "$0")")"
 cd "$SCRIPT_DIR"
 . "$SCRIPT_DIR/../usulib.sh"
+
+mylog "Checking for updates..."
 
 result=$(./print_current_ver_dllink.sh); exitcode=$?
 if [ "$exitcode" -ne "0" ]; then

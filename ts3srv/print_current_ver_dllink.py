@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# ts3srv_get_current_ver_dllink.py version 2017-08-25
+# ===== TS3 Server : print_current_ver_dllink.py =====
 # Gets and prints current TS3 server version and download links for the selected architecture.
 # CMD-LINE ARGS: <script> [PLATFORM [ARCH]]
 #	PLATFORM defaults to 'linux', for other options see comment before DLLINK_PLATFORM
@@ -8,7 +8,8 @@
 # OUTPUT: on first line the current version as avilable on the download page,
 #	on consecutive lines the download links for your platform/arch
 
-#TODO: Print checksum
+#TODO: Print checksum?
+#TODO: Arch autodetection?
 
 import sys
 import requests

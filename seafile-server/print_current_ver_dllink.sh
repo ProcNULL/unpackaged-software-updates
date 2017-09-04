@@ -1,5 +1,5 @@
 #!/bin/sh
-# ===== Seafile Server =====
+# ===== Seafile Server : print_current_ver_dllink.sh =====
 # Prints current Seafile server version (line 1) and dllink (line 2).
 # 	./print_current_ver_dllink.sh [ARCH]
 # ARCH is optional and autodetected if not given,
