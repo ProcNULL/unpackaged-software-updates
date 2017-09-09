@@ -3,3 +3,6 @@
 
 # config: mailto files
 mailto
+
+# ignore whitelist file
+/whitelist
